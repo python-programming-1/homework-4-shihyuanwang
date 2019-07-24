@@ -32,7 +32,7 @@ def win_lose_tie(human, computer):
     elif (human == computer):
         win_lose_tie = 'Draw'
         print('You chose ' + inputs[human] + ' and the computer chose ' + inputs[computer] + '. '\
-              + win_lose_tie + '!\n(Input "sc" to view scores or enters nothing to the next step.)')
+              + win_lose_tie + '!\n(Inputs "sc" to view scores or enters nothing to the next step.)')
     return human_score, computer_score
 
 #--
